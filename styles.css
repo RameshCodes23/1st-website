@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main{
+    background: linear-gradient(rgba(34, 32, 32, 0.4), rgba(34, 32, 32, 0.4)), url(./tomatoes-5356_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(252, 6, 6, 0.4);
+}
+.logo{
+    width: 450px;
+    height: 150pz;
+    padding: 10px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 30px;
+}
+.navbar ul li{
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    padding: 6px 13px;
+    color: rgb(66, 66, 214);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    transition: 0.45s ease-in;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: white;
+    border-radius: 2px;
+}
+
+.main .heartpiece {
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    font-family: fantasy;
+}
+.heartpiece h1{
+    font-family: monospace;
+    color: white;
+    font-size: 4.5rem;
+}
+.heartpiece h2{
+    font-family: monospaceD;
+    color:white;
+    font-size: 3rem;
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(252, 6, 6, 0.4);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
